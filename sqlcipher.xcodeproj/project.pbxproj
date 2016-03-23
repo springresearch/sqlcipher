@@ -200,6 +200,7 @@
 					"-DSQLITE_TEMP_STORE=2",
 					"-DSQLITE_THREADSAFE",
 					"-DSQLCIPHER_CRYPTO_CC",
+					"-DSQLITE_ENABLE_FTS4",
 				);
 				"OTHER_CFLAGS[arch=armv6]" = (
 					"-mno-thumb",
@@ -229,6 +230,7 @@
 					"-DSQLITE_TEMP_STORE=2",
 					"-DSQLITE_THREADSAFE",
 					"-DSQLCIPHER_CRYPTO_CC",
+					"-DSQLITE_ENABLE_FTS4",
 				);
 				"OTHER_CFLAGS[arch=armv6]" = (
 					"-mno-thumb",
